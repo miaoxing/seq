@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Seq\Controller\Admin;
 
-class Seq extends \miaoxing\plugin\BaseController
+class Seq extends \Miaoxing\Plugin\BaseController
 {
     protected $controllerName = '多商品生成序号管理';
 
