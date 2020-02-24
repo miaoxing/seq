@@ -4,7 +4,7 @@ namespace Miaoxing\Seq\Controller\Admin;
 
 class Seq extends \Miaoxing\Plugin\BaseController
 {
-    protected $controllerName = '多商品生成序号管理';
+    protected $controllerName = '序号生成器';
 
     protected $actionPermissions = [
         'create' => '添加',

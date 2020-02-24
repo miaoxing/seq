@@ -1,5 +1,6 @@
 {
   "name": "miaoxing/seq",
+  "type": "miaoxing-plugin",
   "description": "Miaoxing Seq Plugin",
   "keywords": [
     "miaoxing", "seq"

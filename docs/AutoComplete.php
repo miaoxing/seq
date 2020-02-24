@@ -1,10 +1,10 @@
 <?php
 
-namespace plugins\seq\docs {
+namespace MiaoxingDoc\Seq {
 
     /**
-     * @property    \Miaoxing\App\Service\Seq $seq 顺序ID生成服务
-     * @method      string seq() 生成一个新的顺序ID
+     * @property    \Miaoxing\Seq\Service\Seq $seq
+     * @method      null|int seq($offset = 100)
      */
     class AutoComplete
     {
@@ -14,9 +14,12 @@ namespace plugins\seq\docs {
 namespace {
 
     /**
-     * @return \plugins\seq\docs\AutoComplete
+     * @return MiaoxingDoc\Seq\AutoComplete
      */
     function wei()
     {
     }
+
+    /** @var Miaoxing\Seq\Service\Seq $seq */
+    $seq = wei()->seq;
 }
