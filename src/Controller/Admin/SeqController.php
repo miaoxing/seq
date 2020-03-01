@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Seq\Controller\Admin;
 
-class Seq extends \Miaoxing\Plugin\BaseController
+class SeqController extends \Miaoxing\Plugin\BaseController
 {
     protected $controllerName = '序号生成器';
 
