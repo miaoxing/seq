@@ -49,6 +49,12 @@ class Seq extends \Miaoxing\Plugin\BaseService
         }
     }
 
+    /**
+     * @param int $offset
+     * @return int|null
+     * @throws \Exception
+     * @api
+     */
     protected function generate($offset = 100)
     {
         return $this->__invoke($offset);
