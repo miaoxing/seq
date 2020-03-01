@@ -2,12 +2,16 @@
 
 namespace Miaoxing\Seq\Service;
 
+use Miaoxing\Services\Service\StaticTrait;
+
 /**
  * @property \Wei\Db $db
  * @property \Wei\Redis $redis
  */
 class Seq extends \Miaoxing\Plugin\BaseService
 {
+    use StaticTrait;
+
     /**
      * @var string
      */
@@ -43,5 +47,10 @@ class Seq extends \Miaoxing\Plugin\BaseService
             default:
                 throw new \Exception(sprintf('Unsupported driver "%s"', $this->driver));
         }
+    }
+
+    protected function generate($offset = 100)
+    {
+        return $this->__invoke($offset);
     }
 }

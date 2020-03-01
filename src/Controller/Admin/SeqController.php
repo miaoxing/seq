@@ -2,6 +2,8 @@
 
 namespace Miaoxing\Seq\Controller\Admin;
 
+use Miaoxing\Seq\Service\Seq;
+
 class SeqController extends \Miaoxing\Plugin\BaseController
 {
     protected $controllerName = '序号生成器';
@@ -14,7 +16,7 @@ class SeqController extends \Miaoxing\Plugin\BaseController
     {
         return $this->suc([
             'message' => 'ok',
-            'id' => wei()->seq(),
+            'id' => Seq::generate(),
         ]);
     }
 }
