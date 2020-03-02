@@ -13,7 +13,7 @@ interface Seq
     public function generate($offset = 100);
 }
 
-if (true) { 
+if (0) {
     interface Seq
     {
         /**
