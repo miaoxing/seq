@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Seq;
 
-class Plugin extends \Miaoxing\Plugin\BasePlugin
+class SeqPlugin extends \Miaoxing\Plugin\BasePlugin
 {
     protected $name = '顺序ID生成服务';
 
