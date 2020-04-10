@@ -2,26 +2,15 @@
 
 namespace Miaoxing\Seq\Service;
 
-interface Seq
+class Seq extends \Miaoxing\Plugin\BaseService
 {
     /**
      * @param int $offset
      * @return int|null
      * @throws \Exception
-     * @api
+     * @see Seq::generate
      */
-    public function generate($offset = 100);
-}
-
-if (0) {
-    interface Seq
+    public static function generate($offset = 100)
     {
-        /**
-         * @param int $offset
-         * @return int|null
-         * @throws \Exception
-         * @api
-         */
-        public static function generate($offset = 100);
     }
 }
