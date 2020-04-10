@@ -2,16 +2,14 @@
 
 namespace Miaoxing\Seq\Service;
 
-use Miaoxing\Services\Service\StaticTrait;
+use Miaoxing\Plugin\BaseService;
 
 /**
  * @property \Wei\Db $db
  * @property \Wei\Redis $redis
  */
-class Seq extends \Miaoxing\Plugin\BaseService
+class Seq extends BaseService
 {
-    use StaticTrait;
-
     /**
      * @var string
      */
