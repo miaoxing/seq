@@ -51,7 +51,7 @@ class Seq extends BaseService
      * @param int $offset
      * @return int|null
      * @throws \Exception
-     * @api
+     * @svc
      */
     protected function generate($offset = 100)
     {
