@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Seq\Migration;
 
-use Miaoxing\Services\Migration\BaseMigration;
+use Wei\Migration\BaseMigration;
 
 class V20161116144532CreateSeqTable extends BaseMigration
 {
