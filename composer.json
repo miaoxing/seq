@@ -3,7 +3,8 @@
   "type": "miaoxing-plugin",
   "description": "Miaoxing Seq Plugin",
   "keywords": [
-    "miaoxing", "seq"
+    "miaoxing",
+    "seq"
   ],
   "license": "MIT",
   "require": {
