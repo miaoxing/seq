@@ -8,7 +8,7 @@ define(function () {
       dataType: 'json',
       success: function (result) {
         id = result.id;
-      }
+      },
     });
     return id;
   };
