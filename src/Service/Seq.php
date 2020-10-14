@@ -5,8 +5,8 @@ namespace Miaoxing\Seq\Service;
 use Miaoxing\Plugin\BaseService;
 
 /**
- * @property \Wei\Db $db
- * @property \Wei\Redis $redis
+ * @mixin \DbMixin
+ * @mixin \RedisMixin
  */
 class Seq extends BaseService
 {
@@ -20,7 +20,7 @@ class Seq extends BaseService
      *
      * @var string
      */
-    protected $name = 'seq';
+    protected $name = 'seqs';
 
     /**
      * @param int $offset
@@ -37,7 +37,8 @@ class Seq extends BaseService
                 return $this->redis->incr($name, $offset);
 
             case 'db':
-                $stmt = $this->db->query("REPLACE INTO $name (stub) VALUES (1);SELECT LAST_INSERT_ID();");
+                $table = $this->db->getTable($name);
+                $stmt = $this->db->query("REPLACE INTO $table (stub) VALUES (1);SELECT LAST_INSERT_ID();");
                 $stmt->nextRowset();
 
                 return (int) $stmt->fetchColumn();
