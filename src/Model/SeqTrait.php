@@ -8,7 +8,7 @@ trait SeqTrait
 {
     public static function bootSeqTrait()
     {
-        static::on('beforeCreate', 'generateSeqId');
+        static::onModelEvent('beforeCreate', 'generateSeqId');
     }
 
     /**

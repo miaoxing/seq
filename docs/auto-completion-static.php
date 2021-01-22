@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Seq\Service;
 
-class Seq extends \Miaoxing\Plugin\BaseService
+class Seq
 {
     /**
      * @param int $offset
@@ -13,4 +13,21 @@ class Seq extends \Miaoxing\Plugin\BaseService
     public static function generate($offset = 100)
     {
     }
+}
+
+namespace Miaoxing\Seq\Service;
+
+if (0) {
+class Seq
+{
+    /**
+     * @param int $offset
+     * @return int|null
+     * @throws \Exception
+     * @see Seq::generate
+     */
+    public function generate($offset = 100)
+    {
+    }
+}
 }
