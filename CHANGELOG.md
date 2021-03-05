@@ -1,3 +1,18 @@
+## [0.1.13](https://github.com/miaoxing/seq/compare/v0.1.12...v0.1.13) (2021-03-05)
+
+
+### Features
+
+* 增加 SeqTrait，用于创建模型时自动生成无规律的自增 id ([8e47d51](https://github.com/miaoxing/seq/commit/8e47d51852555a9edcafe38f4f4990405465389a))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from 0.2.4 to 0.2.5
+
 ## [0.1.12](https://github.com/miaoxing/seq/compare/v0.1.11...v0.1.12) (2020-09-27)
 
 
