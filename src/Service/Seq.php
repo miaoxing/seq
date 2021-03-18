@@ -24,7 +24,7 @@ class Seq extends BaseService
 
     /**
      * @param int $offset
-     * @return null|int
+     * @return int|null
      * @throws \Exception
      */
     public function __invoke($offset = 100)
