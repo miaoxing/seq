@@ -4,5 +4,11 @@
   "private": true,
   "main": "index.js",
   "author": "twinh",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@miaoxing/dev": "^6.3.3"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  }
 }
