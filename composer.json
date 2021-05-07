@@ -35,7 +35,8 @@
       ]
     },
     "require-ci": {
-      "miaoxing/dev": "miaoxing/dev as 6.x-dev"
+      "miaoxing/dev": "miaoxing/dev as 6.x-dev",
+      "wei/wei": "twinh/wei as 0.10.x-dev"
     }
   }
 }
