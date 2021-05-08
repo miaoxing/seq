@@ -26,14 +26,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "extra": {
-    "installer-types": [
-      "miaoxing-plugin"
-    ],
-    "installer-paths": {
-      "plugins/{$name}/": [
-        "type:miaoxing-plugin"
-      ]
-    },
     "require-ci": {
       "miaoxing/dev": "miaoxing/dev as 6.x-dev",
       "wei/wei": "twinh/wei as 0.10.x-dev"
