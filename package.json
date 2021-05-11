@@ -1,12 +1,12 @@
 {
   "name": "@miaoxing/seq",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "private": true,
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
   "devDependencies": {
-    "@miaoxing/dev": "^6.4.0"
+    "@miaoxing/dev": "^7.0.0"
   },
   "jest": {
     "preset": "jest-preset-miaoxing"
