@@ -2,7 +2,7 @@
 
 use Miaoxing\Seq\Service\Seq;
 
-return new class extends \Miaoxing\Plugin\BaseController {
+return new class () extends \Miaoxing\Plugin\BaseController {
     public function post()
     {
         return suc([
