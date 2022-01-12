@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "twinh",
   "license": "MIT",
+  "workspaces": [
+    "plugins/*"
+  ],
   "devDependencies": {
     "@miaoxing/dev": "^8.0.0"
   },
