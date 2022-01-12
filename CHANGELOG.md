@@ -1,3 +1,14 @@
+## [0.1.27](https://github.com/miaoxing/seq/compare/v0.1.26...v0.1.27) (2022-01-12)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+* **@miaoxing/app:** upgrade from `0.4.0` to `0.5.0`
+
 ## [0.1.26](https://github.com/miaoxing/seq/compare/v0.1.25...v0.1.26) (2021-10-28)
 
 
